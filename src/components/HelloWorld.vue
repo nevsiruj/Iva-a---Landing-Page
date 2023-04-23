@@ -1,4 +1,21 @@
 <template>
+
+<header class="bg-purple-600 text-white py-4">
+  <div class="container mx-auto flex items-center justify-between">
+    <div>
+      <h1 class="text-xl font-bold text-white">¡Conéctate con tus Registros Akáshicos!</h1>
+      <p class="text-sm">Curso Certificado de Registros Akáshicos</p>
+    </div>
+        <a href="#" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full transition duration-300">
+  <span class="mr-2">
+    <i class="fas fa-edit"></i>
+  </span>
+  Inscríbete ahora
+</a>
+
+  </div>
+</header>
+
   <!-- Seccion Hero -->
   <section class="hero bg-white">
     <div
@@ -274,7 +291,7 @@
       class="container mx-auto flex flex-wrap py-4 items-center justify-center"
     >
       <h2 class="text-lg sm:text-xl text-white font-bold mr-4">
-        ¿Listo para encontrar la paz y la felicidad?
+        ¿Listo para empezar a leer tus Registros Akáshicos?
       </h2>
       <a
         href="https://wa.me/56934180431"
@@ -294,7 +311,7 @@
           hover:-translate-y-1 hover:scale-110
         "
       >
-        Contáctame
+        Inscríbete ahora <i class="fas fa-arrow-right ml-2"></i>
       </a>
     </div>
   </section>
@@ -318,7 +335,7 @@
   <footer class="bg-white text-purple-900">
     <div class="container mx-auto py-8 px-6">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div class="md:col-span-2">
+        <!-- <div class="md:col-span-2">
           <h3 class="text-2xl font-bold mb-4">Sobre mi</h3>
           <p class="mb-4">
             Soy Ivanka Zúñiga Lagos, una clarividente y experta en limpiezas
@@ -327,7 +344,7 @@
             posibilidades y su verdad y a liberarse de los bloqueos y las
             energías negativas que les impiden avanzar.
           </p>
-        </div>
+        </div> -->
         <div>
           <h3 class="text-2xl font-bold mb-4">Contáctame</h3>
           <ul class="mb-4">
