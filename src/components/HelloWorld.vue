@@ -1,97 +1,49 @@
 <template>
 
-<header class="bg-purple-600 text-white py-4">
+<header class="bg-purple-600 text-white py-4" style="background-image: url('https://cdn.create.vista.com/api/media/medium/198497990/stock-photo-mystical-background-green-smoke-black?token=');">
   <div class="container mx-auto flex items-center justify-between">
     <div>
       <h1 class="text-xl font-bold text-white">¡Conéctate con tus Registros Akáshicos!</h1>
       <p class="text-sm">Curso Certificado de Registros Akáshicos</p>
     </div>
-        <a href="#" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full transition duration-300">
-  <span class="mr-2">
-    <i class="fas fa-edit"></i>
-  </span>
-  Inscríbete ahora
-</a>
-
+    <a href="#" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full transition duration-300">
+      <span class="mr-2">
+        <i class="fas fa-edit"></i>
+      </span>
+      Inscríbete ahora
+    </a>
   </div>
 </header>
 
+
   <!-- Seccion Hero -->
-  <section class="hero bg-white">
-    <div
-      class="container mx-auto flex flex-col items-center justify-center py-16"
-    >
-      <h1
-        class="
-          text-5xl text-purple-600
-          font-bold
-          mb-4
-          animate__animated animate__fadeInLeft
-        "
-      >
-        Curso Certificado de Registros Akáshicos
-      </h1>
-      <h2
-        class="
-          text-xl text-gray-700
-          font-medium
-          mb-8
-          animate-fade-in-up animate__animated animate__fadeInRight
-        "
-      >
-        Aprende a abrir los Registros Akáshicos para mejorar y comprender tu
-        vida y la de otros
-      </h2>
-      <p
-        class="
-          text-lg text-gray-800
-          leading-relaxed
-          mb-12
-          max-w-3xl
-          text-center
-          transition-all
-          duration-300
-          ease-in-out
-          animate__animated animate__fadeInRight
-        "
-      >
-        Dale un regalo a tu vida, conéctate con tus memorias pasadas, futuras y
-        de otros espacios. Aprende a leer los Registros Akáshicos de otras
-        personas y del Reino Elemental, animales, lugares y situaciones.
-        Descubre la importancia de los Chakras y los Guías Espirituales y
-        Maestros.
-      </p>
-      <a
-        href="https://wa.me/56934180431"
-        class="
-          btn
-          bg-purple-600
-          text-white
-          hover:bg-purple-700
-          transition-all
-          duration-300
-          ease-in-out
-          py-2
-          px-4
-          rounded-md
-          shadow-lg
-          animate-pulse
-        "
-      >
-        Contáctanos para inscribirte
-      </a>
-    </div>
-  </section>
+  <section class="hero bg-white" style="background-image: url('https://cdn.create.vista.com/api/media/medium/198497536/stock-photo-abstract-mystic-violet-smoky-background?token=');">
+  <div class="container mx-auto flex flex-col items-center justify-center py-16">
+    <h1 class="text-5xl text-white font-bold mb-4 animate__animated animate__fadeInLeft">
+      Curso Certificado de Registros Akáshicos
+    </h1>
+    <h2 class="text-xl text-white font-medium mb-8 animate-fade-in-up animate__animated animate__fadeInRight">
+      Aprende a abrir los Registros Akáshicos para mejorar y comprender tu vida y la de otros
+    </h2>
+    <p class="text-lg text-white leading-relaxed mb-12 max-w-3xl text-center transition-all duration-300 ease-in-out animate__animated animate__fadeInRight">
+      Dale un regalo a tu vida, conéctate con tus memorias pasadas, futuras y de otros espacios. Aprende a leer los Registros Akáshicos de otras personas y del Reino Elemental, animales, lugares y situaciones. Descubre la importancia de los Chakras y los Guías Espirituales y Maestros.
+    </p>
+    <a href="https://wa.me/56934180431" class="btn bg-white text-black hover:bg-red-200 transition-all duration-300 ease-in-out py-2 px-4 rounded-md shadow-lg animate-pulse">
+      Contáctanos para inscribirte
+    </a>
+  </div>
+</section>
+
 
   <!-- Seccion Acerca de Mi-->
 
-<section class="bg-purple-900 py-16">
-  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+<section class="bg-purple-900 py-16" style="background-image: url('https://cdn.create.vista.com/api/media/medium/198497990/stock-photo-mystical-background-green-smoke-black?token=');">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8" style="background-image: url('">
     <h2 class="text-3xl font-extrabold text-white mb-8">Descripción del Curso</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <div class="bg-white rounded-lg shadow-md px-6 py-8 mb-8">
-   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-  <div class="bg-white rounded-lg p-6 flex flex-col justify-between items-center">
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-6" >
+  <div class="bg-white rounded-lg p-6 flex flex-col justify-between items-center" >
     <h3 class="text-xl font-bold mb-4">📚 El Akásha y los Registros Akáshicos</h3>
      <p class="text-gray-500 text-center bg-purple-100 rounded-lg py-2 px-4 shadow-md hover:shadow-lg transition duration-300">Aprende sobre la historia y concepto del Akásha y los Registros Akáshicos.</p>
   </div>
@@ -142,18 +94,19 @@
 
   <section
     class="about py-12 bg-purple-100 animate__animated animate__fadeInUp"
+    style="background-image: url('https://cdn.pixabay.com/photo/2018/12/18/22/38/background-3883199_1280.jpg');"
   >
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-6 text-purple-800">
+      <h2 class="text-3xl font-bold mb-6 text-white">
         Soy Ivanka Zúñiga Lagos
       </h2>
-      <p class="text-lg leading-relaxed mb-8 text-purple-600">
+      <p class="text-lg leading-relaxed mb-8 text-white">
         Clarividente, Maestra de Registros Akáshicos y Experta en Limpiezas
         Energéticas. Con mi don y experiencia, ayudo a mis clientes a encontrar
         la armonía en sus vidas, a conectarse con sus maestros espirituales y a
         sanar su pasado para crecer en el presente y en el futuro.
       </p>
-      <p class="text-lg leading-relaxed mb-8 text-purple-600">
+      <p class="text-lg leading-relaxed mb-8 text-white">
         Mi enfoque se basa en la comprensión de que todos somos seres
         energéticos y que también estamos rodeados de energías que se movilizan
         en base a nuestras experiencias, emociones y pensamientos. Busco ayudar
@@ -181,7 +134,6 @@
 
 
 
-<!-- Niveles del curso -->
 <!-- Niveles del curso -->
 <section class="bg-purple-900 py-16">
   <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
