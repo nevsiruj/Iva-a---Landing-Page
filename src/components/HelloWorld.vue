@@ -339,6 +339,8 @@
   <a href="https://wa.me/56934180431" class="whatsapp-button" target="_blank">
     <i class="fab fa-whatsapp"></i>
   </a>
+
+  
 </template>
 
 <script>
