@@ -1,6 +1,6 @@
 <template>
 
-<header class="bg-purple-600 text-white py-4" style="background-image: url('https://cdn.create.vista.com/api/media/medium/198497990/stock-photo-mystical-background-green-smoke-black?token=');">
+<header class="bg-purple-600 text-white py-4" style="background-image: url('https://img.freepik.com/fotos-premium/abstracto-mistico-humo-o-energia-azul-violeta-sobre-fondo-negro_216606-80.jpg');">
   <div class="container mx-auto flex items-center justify-between">
     <div>
       <h1 class="text-xl font-bold text-white">¡Conéctate con tus Registros Akáshicos!</h1>
@@ -31,13 +31,15 @@
     <a href="https://wa.me/56934180431" class="btn bg-white text-black hover:bg-red-200 transition-all duration-300 ease-in-out py-2 px-4 rounded-md shadow-lg animate-pulse">
       Contáctanos para inscribirte
     </a>
+
+    
   </div>
 </section>
 
 
   <!-- Seccion Acerca de Mi-->
 
-<section class="bg-purple-900 py-16" style="background-image: url('https://cdn.create.vista.com/api/media/medium/198497990/stock-photo-mystical-background-green-smoke-black?token=');">
+<section class="bg-purple-900 py-16" style="background-image: url('https://cdn.create.vista.com/api/media/medium/198497536/stock-photo-abstract-mystic-violet-smoky-background?token=');">
   <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8" style="background-image: url('">
     <h2 class="text-3xl font-extrabold text-white mb-8">Descripción del Curso</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
