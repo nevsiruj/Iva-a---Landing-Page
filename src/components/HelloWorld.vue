@@ -45,10 +45,11 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <div class="bg-white rounded-lg shadow-md px-6 py-8 mb-8">
    <div class="grid grid-cols-1 md:grid-cols-3 gap-6" >
-  <div class="bg-white rounded-lg p-6 flex flex-col justify-between items-center" >
-    <h3 class="text-xl font-bold mb-4">📚 El Akásha y los Registros Akáshicos</h3>
-     <p class="text-gray-500 text-center bg-purple-100 rounded-lg py-2 px-4 shadow-md hover:shadow-lg transition duration-300">Aprende sobre la historia y concepto del Akásha y los Registros Akáshicos.</p>
-  </div>
+  <div class="bg-white rounded-lg p-6 flex flex-col justify-between items-center animate__animated animate__fadeInUp">
+  <h3 class="text-xl font-bold mb-4">📚 El Akásha y los Registros Akáshicos</h3>
+  <p class="text-gray-500 text-center bg-purple-100 rounded-lg py-2 px-4 shadow-md hover:shadow-lg transition duration-300">Aprende sobre la historia y concepto del Akásha y los Registros Akáshicos.</p>
+</div>
+
   <div class="bg-white rounded-lg p-6 flex flex-col justify-between items-center">
     <h3 class="text-xl font-bold mb-4">💜 ¿Qué significa estar conectado a la energía de amor de los Registros Akáshicos?</h3>
     <p class="text-gray-500 text-center bg-purple-100 rounded-lg py-2 px-4 shadow-md hover:shadow-lg transition duration-300">Explora cómo conectarte con la energía de amor de los Registros Akáshicos y cómo esto puede ayudarte en tu vida presente.</p>
@@ -341,6 +342,13 @@
 </template>
 
 <script>
+
+AOS.init({
+    once: true, // la animación se ejecutará solo una vez
+    offset: 50, // la animación se ejecutará cuando el elemento esté a 50px de la parte visible de la pantalla
+    duration: 500 // la duración de la animación en milisegundos
+  });
+  
 export default {
   name: 'HelloWorld',
   props: {
